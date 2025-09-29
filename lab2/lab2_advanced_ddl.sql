@@ -232,3 +232,4 @@ where datname = 'university_test';
 drop database if exists university_test;
 drop database if exists university_distributed;
 create database university_backup template = university_main;
+
