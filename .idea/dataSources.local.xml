@@ -6,7 +6,6 @@
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
-      <secret-storage>master_key</secret-storage>
       <user-name>postgres</user-name>
       <schema-mapping>
         <introspection-scope>
@@ -14,9 +13,14 @@
             <node kind="database" qname="@">
               <node kind="schema" qname="@" />
             </node>
-            <node kind="database" qname="advanced_lab">
+            <node kind="database">
+              <name qname="constraints" />
+              <name qname="assignment" />
+              <name qname="advanced_lab" />
+              <name qname="medical" />
               <node kind="schema" qname="public" />
             </node>
+            <node kind="database" qname="postgres" />
           </node>
         </introspection-scope>
       </schema-mapping>
